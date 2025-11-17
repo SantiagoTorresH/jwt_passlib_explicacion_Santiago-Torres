@@ -506,28 +506,11 @@ En el video muestro:
 
 5. **Seguridad ≠ Usabilidad**: Siempre hay trade-offs. JWT corto (fácil) vs Refresh tokens (seguro).
 
-### Mejoras Futuras:
 
-- [ ] Implementar refresh tokens
-- [ ] Agregar 2FA (códigos TOTP)
-- [ ] Rate limiting en login
-- [ ] Auditoría de intentos fallidos
-- [ ] Recuperación de contraseña vía email
-- [ ] OAuth2 con Google/GitHub
-- [ ] Eliminación de cuenta
 
-### Recursos Recomendados:
 
-- [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-- [Passlib Documentation](https://passlib.readthedocs.io/)
-- [JWT.io](https://jwt.io/) - Debugger interactivo de tokens
-- [RFC 7519 - JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519)
 
----
 
-## 📄 Licencia
-
-Este proyecto es con fines educativos. MIT License.
 
 ## 👨‍💻 Autor
 
