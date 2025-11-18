@@ -92,6 +92,21 @@ if choice == "Login":
                     st.warning("⚠️ No tienes acceso a funciones de administrador")
             except Exception as e:
                 st.error(f"❌ Error al verificar acceso: {e}")
+        # Mostrar detalles del usuario en un expander
+        with st.expander("Datos del usuario", expanded=True):
+            user = st.session_state.user
+            try:
+                st.write(f"**ID:** {user.get('id')}")
+                st.write(f"**Usuario:** {user.get('username')}")
+                st.write(f"**Rol:** {user.get('role')}")
+                st.write(f"**Activo:** {user.get('is_active')}")
+                st.write(f"**Creado:** {user.get('created_at')}")
+                st.write(f"**Actualizado:** {user.get('updated_at')}")
+                st.markdown("---")
+                st.subheader("JSON completo")
+                st.json(user)
+            except Exception:
+                st.write(user)
         
         # Botón para cerrar sesión
         if st.button("🚪 Cerrar Sesión"):
