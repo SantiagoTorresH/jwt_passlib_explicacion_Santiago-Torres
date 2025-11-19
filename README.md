@@ -475,7 +475,7 @@ if pwd_context.verify(password, hashed):  # Passlib
 
 ## 🎬 Video Explicativo
 
-> **[Enlace al video (5-8 minutos)](https://youtu.be/43biV9-cgs8)**
+> **[Enlace al video ](https://youtu.be/43biV9-cgs8)**
 
 
 ---
