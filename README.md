@@ -475,15 +475,8 @@ if pwd_context.verify(password, hashed):  # Passlib
 
 ## 🎬 Video Explicativo
 
-> **[Enlace al video (5-8 minutos)](https://www.youtube.com/watch?v=...)**
+> **[Enlace al video (5-8 minutos)](https://youtu.be/43biV9-cgs8)**
 
-En el video muestro:
-1. ¿Qué problema resuelve este proyecto?
-2. Cómo funciona Passlib con Argon2
-3. Cómo se genera y verifica un JWT
-4. Demostración práctica: registro → login → acceso a /me
-5. Análisis de seguridad y buenas prácticas
-6. Reflexión personal sobre autenticación
 
 ---
 
@@ -508,14 +501,10 @@ En el video muestro:
 
 
 
-
-
-
-
 ## 👨‍💻 Autor
 
 **Santiago Torres** - Módulo 7: Seguridad y Autenticación
 
 ---
 
-**Última actualización:** Noviembre 14, 2025
+**Última actualización:** Noviembre 18, 2025
